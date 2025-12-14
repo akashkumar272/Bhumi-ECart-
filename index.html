@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhumi Cart</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🌾 Bhumi Cart</h1>
+    <p>Fresh Grocery at Your Doorstep</p>
+
+    <div>
+      <button onclick="setLang('hi')">हिंदी</button>
+      <button onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- CATEGORIES -->
+  <section>
+    <h2 class="en">Categories</h2>
+    <h2 class="hi">श्रेणियाँ</h2>
+
+    <div>
+      <button>Rice</button>
+      <button>Dal</button>
+      <button>Oil</button>
+      <button>Snacks</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section>
+    <h2 class="en">Products</h2>
+    <h2 class="hi">उत्पाद</h2>
+
+    <div class="product">
+      <h3 class="en">Basmati Rice</h3>
+      <h3 class="hi">बासमती चावल</h3>
+      <p>₹60 / kg</p>
+      <button onclick="addToCart('Basmati Rice - ₹60')">Add</button>
+    </div>
+
+    <div class="product">
+      <h3 class="en">Toor Dal</h3>
+      <h3 class="hi">तूर दाल</h3>
+      <p>₹120 / kg</p
